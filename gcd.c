@@ -8,7 +8,10 @@ int gcd(int a, int b);
 
 int main()
 {
-	printf("%d\n", gcd(17, 5));
+	int a, b;
+	scanf("%d %d", &a, &b);
+
+	printf("%d\n", gcd(a, b));
 
 	return 0;
 }
